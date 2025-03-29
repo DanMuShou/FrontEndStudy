@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS常用属性</title>
+
+    <style>
+        .block {
+            background-color: red;
+            width: 200px;
+            height: 100px;
+        }
+
+        .inline {
+            background-color: darkseagreen;
+            /* 无效 */
+            width: 300px;
+        }
+
+        .block-inline {
+            width: 100px;
+            height: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="font:bolder 50px 'KaiTi'">这是font示例</h1>
+    <div style="line-height: 50px;">
+        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    </div>
+
+    <div class="block">这是块级元素</div>
+    <div class="block">这是块级元素</div>
+    <span class="inline">这是行级元素</span>
+    <img src="wwwroot/img.jpg" alt="" class="block-inline">
+    <img src="wwwroot/img.jpg" alt="" class="block-inline">
+
+    <h2>这是转换器</h2>
+    <div style="display: inline;background-color:darkseagreen;">转换</div>
+    <div style="background-color:darkseagreen;">转换</div>
+
+</body>
+
+</html>
